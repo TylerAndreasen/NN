@@ -2,7 +2,7 @@
 #include "matrix.h"
 using std::cout;
 using std::endl;
-int main()
+int not2main()
 {
 	matrix first = matrix(3, 3);
 	matrix second = matrix(3, 3);

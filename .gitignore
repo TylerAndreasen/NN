@@ -1,3 +1,4 @@
 scratch.cana
 x64/
 *vcxproj*
+*.png

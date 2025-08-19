@@ -25,10 +25,12 @@ int not1main()
 
 	cout << endl << endl << "Size comparions" << endl;
 
+	/*
 	cout << "keanu: " << reloaded.compare_sizes(keanu) << endl;
 	cout << "dragon: " << reloaded.compare_sizes(dragon) << endl;
 	cout << "champion: " << reloaded.compare_sizes(champion) << endl;
 	cout << "kvatch: " << reloaded.compare_sizes(kvatch) << endl;
+	*/
 
 	// Matrix Mult
 
