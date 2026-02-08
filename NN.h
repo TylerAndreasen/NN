@@ -14,7 +14,7 @@ private:
 public:
 	NN(int _inputs, int _hiddens, int _outputs);
 	vector<float> feedforward(vector<float>& inputvalues);
-	void train(vector<float> &inputvalues, vector<float> &correctoutput);
+	void train(vector<float> &inputvalues, vector<float> &correctoutput, float learning_rate);
 	//void activation(matrix& toActivate, float(*callable)(float));
 	static float sigmoid(float& in);
 	static float dsigmoid(float& in);

@@ -56,7 +56,7 @@ vector<float> NN::feedforward(vector<float>& inputvalues)
 	return guess.fetch_output_from_matrix();
 }
 
-void NN::train(vector<float>& inputvalues, vector<float>& targets)
+void NN::train(vector<float>& inputvalues, vector<float>& targets, float learning_rate)
 {
 	//cout << "Call train()" << endl;
 	// <Input Feed Forward>
@@ -113,7 +113,7 @@ void NN::train(vector<float>& inputvalues, vector<float>& targets)
 
 	// <Step 2, Scale error by the Learning Rate>
 	// Scale by learning rate, unfortunate implementation.
-	float LR_COPY = LEARNING_RATE;
+	float LR_COPY = learning_rate;
 	error_H_O = error_H_O.scalar_multiply(LR_COPY);
 	error_I_H = error_I_H.scalar_multiply(LR_COPY);
 	//cout << "Completed Step 2" << endl;

@@ -10,7 +10,7 @@ nntest.cpp
 // and the respective header files
 ```
 
-As the test file implies, I am trying to get the network to learn the logic gate XOR (outputs 1 if and only if one of the two inputs is 1). I am following a tutorial series found [here](https://www.youtube.com/watch?v=XJ7HLz9VYz0&list=PLRqwX-V7Uu6aCibgK1PTWWu9by6XFdCfh) (Note: Tutorial is JavaScript, I am following it mostly to get the structure correct).
+As the test file implies, I am trying to get the network to learn the logic gate XOR (outputs 1 if and only if exactly one of the two inputs is 1). I am following a tutorial series found [here](https://www.youtube.com/watch?v=XJ7HLz9VYz0&list=PLRqwX-V7Uu6aCibgK1PTWWu9by6XFdCfh) (Note: Tutorial is JavaScript, I am following it mostly to get the structure correct).
 
 The dials I am currently tweaking are as follows:
 
